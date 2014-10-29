@@ -2,8 +2,6 @@ var expect = require('chai').expect;
 var _ = require('lodash');
 var extractManifest = require('../index');
 
-// console.log(extractManifest());
-
 describe('manifest', function () {
   // describe('transform', function () {});
   it('should correctly transform input files', function () {
