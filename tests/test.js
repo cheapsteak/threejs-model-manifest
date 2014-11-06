@@ -8,5 +8,8 @@ describe('manifest', function () {
     var model1 = require('./model1/parse.autodesk.json');
     var manifest1 = require('./model1/expectedManifest.js');
     expect(extractManifest(model1)).to.eql(manifest1);
+
+    manifest2 = require('./model1/expectedManifest2.js');
+    expect(extractManifest(model1, 3)).to.eql(manifest2);
   });
 });

@@ -10,9 +10,9 @@
     "url": "https://github.com/CheapSteak"
   },
   "peerDependencies": {
-    "lodash": "^2.4.1"
   },
   "devDependencies": {
+    "lodash": "^2.4.1",
     "chai": "^1.9.2",
     "mocha": "^2.0.1"
   },
